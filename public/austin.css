@@ -269,8 +269,8 @@ body {
 
 .al-login-dropdown-container {
   position: absolute;
-  left: 1330px;
-  top: 70px;
+  left: 63vw;
+  top: 6.5vw;
 }
 
 .al-login-option-container {
@@ -310,8 +310,8 @@ body {
 
 .al-help-dropdown-container {
   position: absolute;
-  left: 1450px;
-  top: 70px;
+  left: 72vw;
+  top: 6.5vw;
 }
 
 .al-help-option-container {
@@ -341,8 +341,8 @@ body {
 
 .al-feedback-form-container {
   position: absolute;
-  top: 200px;
-  left: -950px;
+  top: 10vw;
+  left: -55vw;
 }
 
 .al-feedback-form {

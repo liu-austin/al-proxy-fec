@@ -22,9 +22,34 @@
 <body>
   <script>
     // script to adjust sidebar height in relation to reviews length
+    setInterval(function() {
+      var element = document.getElementsByClassName('al-login-button')[0];
+      var element1 = document.getElementsByClassName('al-header-upper-container')[0];
+      var element2 = document.getElementsByClassName('al-help-button')[0];
+      var element3 = document.getElementsByClassName('al-flag-button')[0];
+      var rect = element.getBoundingClientRect();
+      var rect1 = element1.getBoundingClientRect();
+      var rect2 = element2.getBoundingClientRect();
+      var rect3 = element3.getBoundingClientRect();
+      let x = document.getElementsByClassName('al-login-dropdown-container');
+      let y = document.getElementsByClassName('al-help-dropdown-container');
+      let z = document.getElementsByClassName('al-flag-dropdown-container');
+      if (x.length) {
+        x[0].style.left= rect.left+'px';
+        x[0].style.top = rect1.bottom+'px';
+      } else if (y.length) {
+        y[0].style.left = rect2.left+'px';
+        y[0].style.top = rect1.bottom+'px';
+      } else if (z.length) {
+        z[0].style.top = rect1.bottom+'px';
+        z[0].style.left = (rect3.right - z[0].offsetWidth)+'px'; 
+      }
+    }, 100);
+
     var checkExist = setInterval(function() {
       if ($(".al-booking-tool-container").length && $("#carousel-service").length && $("#kat-service").length && $("#mg_root").length && $("#similar-service").length) {
         clearInterval(checkExist);
+
         document.addEventListener('scroll', function (event) {
           var height = $("#similar-service").offset().top - 144;
           var sidebar = $(".al-sidebar");
@@ -32,6 +57,8 @@
         }, true /*Capture event*/);
       }
     }, 100);
+
+    
 
     
   </script>

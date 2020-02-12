@@ -14,18 +14,18 @@
 
 #kat-service {
   position: relative;
-  left: 45px;
+  left: 0px;
 }
 
 #mg_root {
   position: relative;
-  left: 37.5px;
+  left: 0px;
 }
 
 #leftColumn {
   /* float: left; */
   width: 75%;
-  bottom: 50px;
+  bottom: 3vw;
   background-color: white;
   align-content: flex-start;
   position: relative;
@@ -54,6 +54,11 @@
   z-index: 20;
   width: 403px;
 } */
+
+.al-selected-dropdown-container {
+  top: 2vw;
+  left: -45vw;
+}
 
 .al-header-upper-container {
   display: flex;
@@ -98,7 +103,7 @@
 }
 
 .similar-carousel {
-  padding-bottom: 80px;
+  padding-bottom: 5vw;
 }
 
 #overview-sticky-nav {
@@ -110,4 +115,18 @@
   position: sticky;
   top: 0;
   z-index: 1;
+}
+
+div > iframe {
+  margin-left: 2.5vw;
+  width: 50vw;
+}
+
+.review_container {
+  /* display: inline-block; */
+  width: 50vw;
+}
+
+.main-images-preview {
+  width: 100vw;
 }
