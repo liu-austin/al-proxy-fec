@@ -135,6 +135,10 @@ div > iframe {
   width: 56vw;
 }
 
+.al-view-details-form-container {
+  left: -40vw;
+}
+
 .review_container {
   /* display: inline-block; */
   width: 50vw;
