@@ -14,7 +14,7 @@
 
 #kat-service {
   position: relative;
-  left: 0px;
+  left: -4.5vw;
 }
 
 #mg_root {
@@ -25,7 +25,7 @@
 #leftColumn {
   /* float: left; */
   width: 75%;
-  bottom: 3vw;
+  /* bottom: 3vw; */
   background-color: white;
   align-content: flex-start;
   position: relative;
@@ -106,6 +106,19 @@
   padding-bottom: 5vw;
 }
 
+.similar-title {
+  top: 10vw;
+}
+
+.similar-title > h2 {
+  left: -18vw;
+}
+
+.similar-btn-container {
+  top: 0.85vw;
+  left: -8.5vw;
+}
+
 #overview-sticky-nav {
   background-color: white;
   overflow: hidden;
@@ -129,4 +142,20 @@ div > iframe {
 
 .main-images-preview {
   width: 100vw;
+}
+
+.al-search-form-calendar-container {
+  left: 10vw;
+}
+
+.al-calendar-close-text-container {
+  width: 7vw
+}
+
+.al-calendar-clear-dates-container {
+  width: 10vw;
+}
+
+.al-booking-calendar-container {
+  left: -45vw;
 }
