@@ -3,7 +3,7 @@ const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
 
-const PORT = 3003;
+const PORT = process.env.PORT || 3003;
 const cors = require('cors');
 const morgan = require('morgan');
 const getter = require('./smDbHelpers/get');
