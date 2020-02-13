@@ -4,7 +4,7 @@
   "description": "Proxy server FEC",
   "main": "server/index.js",
   "scripts": {
-    "start": "nodemon ./server/index.js",
+    "start": "node ./server/index.js",
     "server": "nodemon ./server/index.js",
     "build": "webpack -w -d",
     "test": "jest -w *.js",
