@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node ./server/index.js",
     "server": "nodemon ./server/index.js",
-    "build": "webpack -w -d",
+    // "build": "webpack -w -d",
     "test": "jest -w *.js",
     "seed-al": "server/node alDbHelpers/seed.js",
     "seed-kw": "server/node kwDbHelpers/seed.js",
