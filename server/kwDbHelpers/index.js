@@ -1,7 +1,8 @@
 // jshint esversion:6
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/amenities-overview', { useUnifiedTopology: true, useNewUrlParser: true });
-
+const config = require('../config.json');
+// mongoose.connect('mongodb://localhost/amenities-overview', { useUnifiedTopology: true, useNewUrlParser: true });
+mongoose.connect(config.mongouri, { useUnifiedTopology: true, useNewUrlParser: true });
 const connection = mongoose.connection;
 connection.once('open', () => console.log("MongoDB connected successfully"));
 

@@ -81,5 +81,5 @@ genLocations = async () => {
 //   console.error(err);
 // });
 
-// genReview();
-genLocations();
+genReview();
+// genLocations();
