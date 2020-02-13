@@ -1,0 +1,8 @@
+{
+    "host": "ec2-52-202-185-87.compute-1.amazonaws.com",
+    "database": "d6gh475sv6nqtc",
+    "user": "maytghwmdzbsrv",
+    "port": 5432,
+    "password": "d9a5984b8d967b35273a724a56c8b57e696447e18bd0e63cdf601aea9b6194ce",
+    "mongouri": "mongodb+srv://admin-austin:1234@cluster0-bv5hu.mongodb.net/test?retryWrites=true&w=majority"
+}
