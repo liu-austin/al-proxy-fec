@@ -65,6 +65,14 @@
   justify-content: space-between;
 }
 
+.al-search-dropdown {
+  width: 107%;
+}
+
+.al-search-result {
+  width: 99%;
+}
+
 /* .al-header-options-container {
   display: flex;
   margin-top: 0;
